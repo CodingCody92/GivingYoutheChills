@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1000;
+}
+
+header .navbar ul li {
+  display: inline-block;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+  padding: 5px;
+  letter-spacing: 1px;
+  color: #18b32d;
+}
+
+header .navbar ul li a {
+  font-size: 15px;
+  padding: 20px;
+  color: #333;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+.us {
+  background-color: rgba(2, 2, 2, 0.39);
+  height: 100vh;
+  position: relative;
+}
+
+.us:before {
+  content: '';
+  background: url(/imgs/ring.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.us .us-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.us h1 {
+  font-size: 100px;
+  color: #fff;
+  margin: 1em;
+  font-family: 'Playfair Display', serif;
+}
+
+.us p {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
