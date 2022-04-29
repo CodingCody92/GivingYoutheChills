@@ -1,0 +1,96 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .navbar ul li {
+    display: inline-block;
+    // position: relative;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+    letter-spacing: 1px;
+    color: rgb(24, 179, 45);
+}
+
+header .navbar ul li a {
+    font-size: 15px;
+    padding: 20px;
+    color: #333;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .navbar ul li a:hover {
+    text-decoration: underline rgb(24, 179, 45);
+    transition: 0.2s ease-in;
+    text-underline-offset: 6px;
+}
+
+.us {
+    background-color: rgba(2, 2, 2, 0.39);
+    height: 100vh;
+    position: relative;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+.us:before {
+    content: '';
+    background-image: url('imgs/ring.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us .us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+    flex-direction: column;
+}
+
+.us h1 {
+    font-size: 100px;
+    color: #fff;
+    margin: 1em;
+    font-family: 'Playfair Display', serif;
+}
+
+.us p {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu-bar {
+    display: none;
+}
