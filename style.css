@@ -182,6 +182,87 @@ header label {
   margin: 10px;
 }
 
+.story-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.story-txt {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+#story .kiss {
+  height: 800px;
+  width: 800px;
+  border-radius: 330px;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
+  margin-top: 20px;
+}
+
+#story #txt {
+  max-width: 80%;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.venue-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#venue {
+  background-color: #dbdbdb;
+  padding: 30px;
+}
+
+#venue h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.venue-area {
+  margin: 0 80px;
+}
+
+.venue-area p {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.venue-img {
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;
