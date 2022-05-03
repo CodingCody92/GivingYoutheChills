@@ -1,0 +1,35 @@
+.venue-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#venue {
+    background-color: rgb(219, 219, 219);
+    padding: 30px;
+}
+
+#venue h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.venue-area {
+    margin: 0 80px;
+}
+
+.venue-area p {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    // font-size: 10px;
+}
+
+.venue-img {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+}

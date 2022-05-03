@@ -1,0 +1,48 @@
+.story-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.story-txt {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    // color: rgb(52, 219, 52);
+}
+
+// #story .kiss {
+//     height: 800px;
+//     width: 800px;
+//     border-radius: 330px;
+//     box-shadow: 2px 2px 2px 2px black;
+//     margin-top: 20px;
+// }
+.mainbg {
+    background-image: url(imgs/sit-pose.jpg);
+    height: 100vh;
+    width: 80vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#story #txt {
+    max-width: 80%;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.8;
+}
+
+#story span {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(52, 219, 52);
+}

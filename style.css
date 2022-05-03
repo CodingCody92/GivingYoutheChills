@@ -118,6 +118,102 @@ header label {
   display: none;
 }
 
+.story-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.story-txt {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+.mainbg {
+  background-image: url(imgs/sit-pose.jpg);
+  height: 100vh;
+  width: 80vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#story #txt {
+  max-width: 80%;
+  margin-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.8;
+}
+
+#story span {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  color: #34db34;
+}
+
+.venue-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#venue {
+  background-color: #dbdbdb;
+  padding: 30px;
+}
+
+#venue h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.venue-area {
+  margin: 0 80px;
+}
+
+.venue-area p {
+  text-align: center;
+  margin: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.venue-img {
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -125,6 +221,7 @@ header label {
           box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 .us:before {
@@ -171,18 +268,36 @@ header label {
   font-size: 100px;
   color: #fff;
   margin: .7em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 2px;
   text-align: center;
 }
 
 .us p {
   font-size: 50px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
   margin: 10px;
 }
 
-.story-container {
+#reserve h1 {
+  text-align: center;
+}
+
+.hotel {
+  width: 400px;
+}
+
+#reserve {
+  padding: 2.5em;
+}
+
+#reserve h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+}
+
+.reserve-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,81 +307,42 @@ header label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 30px;
 }
 
-.story-txt {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 60px;
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 2px;
+.reserve-area {
+  margin: 3em;
 }
 
-#story .kiss {
-  height: 800px;
-  width: 800px;
-  border-radius: 330px;
-  -webkit-box-shadow: 2px 2px 2px 2px black;
-          box-shadow: 2px 2px 2px 2px black;
-  margin-top: 20px;
-}
-
-#story #txt {
-  max-width: 80%;
+.button {
   margin-top: 30px;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
 }
 
-#story span {
-  font-size: 40px;
-  font-family: 'Dancing Script', cursive;
-  color: #34db34;
-}
-
-.venue-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#venue {
-  background-color: #dbdbdb;
-  padding: 30px;
-}
-
-#venue h1 {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  font-size: 40px;
-  margin-bottom: 30px;
-}
-
-.venue-area {
-  margin: 0 80px;
-}
-
-.venue-area p {
-  text-align: center;
-  margin: 10px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.venue-img {
-  height: 150px;
-  width: 150px;
+.reserve-area .button .book {
+  background-color: #121111;
+  color: #fff;
+  padding: 10px;
   margin-top: 10px;
+}
+
+.reserve-area .button .book:hover {
+  background-color: #555151;
+  -webkit-transition: all ease-in .2s;
+  transition: all ease-in .2s;
+}
+
+.reserve-area p,
+h3 {
+  margin: 20px;
+}
+
+.reserve-area #ital {
+  font-style: italic;
+}
+
+.reserve-area h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #1639d3;
+  font-weight: bold;
 }
 
 @media (max-width: 991px) {
@@ -314,22 +390,19 @@ header label {
   #story .kiss {
     display: none;
   }
-  .story-container .bkgrd {
-    background-image: url(imgs/sit-pose.jpg);
-    height: 80vh;
-    width: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+}
+
+@media (max-width: 500px) {
+  .mainbg {
+    height: 60vh;
+    width: 40vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .mainbg {
+    height: 50vh;
+    width: 30vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

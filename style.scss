@@ -1,10 +1,13 @@
 @import './navbar';
+@import './story';
+@import './venue';
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 .us:before {
@@ -36,89 +39,74 @@
     font-size: 100px;
     color: #fff;
     margin: .7em;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2px;
     text-align: center;
 }
 
 .us p {
     font-size: 50px;
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
     margin: 10px;
 }
 
-.story-container {
+#reserve h1 {
+    text-align: center;
+}
+
+.hotel {
+    width: 400px;
+}
+
+#reserve {
+    padding: 2.5em;
+}
+
+#reserve h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+.reserve-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 30px;
 }
 
-.story-txt {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 60px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 2px;
-    // color: rgb(52, 219, 52);
+.reserve-area {
+    margin: 3em;
 }
 
-#story .kiss {
-    height: 800px;
-    width: 800px;
-    border-radius: 330px;
-    box-shadow: 2px 2px 2px 2px black;
-    margin-top: 20px;
-}
-
-#story #txt {
-    max-width: 80%;
+.button {
     margin-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
 }
 
-#story span {
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
-    color: rgb(52, 219, 52);
-}
-
-.venue-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#venue {
-    background-color: rgb(219, 219, 219);
-    padding: 30px;
-}
-
-#venue h1 {
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    // font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-
-.venue-area {
-    margin: 0 80px;
-}
-
-.venue-area p {
-    text-align: center;
-    margin: 10px;
-    font-family: 'Roboto', sans-serif;
-    // font-size: 10px;
-}
-
-.venue-img {
-    height: 150px;
-    width: 150px;
+.reserve-area .button .book {
+    background-color: rgb(18, 17, 17);
+    color: #fff;
+    padding: 10px;
     margin-top: 10px;
+}
+
+.reserve-area .button .book:hover {
+    background-color: rgb(85, 81, 81);
+    transition: all ease-in .2s;
+}
+
+.reserve-area p,
+h3 {
+    margin: 20px;
+}
+
+.reserve-area #ital {
+    font-style: italic;
+}
+
+.reserve-area h3 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(22, 57, 211);
+    font-weight: bold;
 }
 
 @media(max-width: 991px) {
@@ -165,15 +153,29 @@
     #story .kiss {
         display: none;
     }
-    .story-container .bkgrd {
-        background-image: url(imgs/sit-pose.jpg);
-        height: 80vh;
-        width: 100vw;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    // .story-container .bkgrd {
+    //     background-image: url(imgs/sit-pose.jpg);
+    //     height: 80vh;
+    //     width: 100vw;
+    //     background-position: center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+}
+
+@media(max-width: 500px) {
+    .mainbg {
+        height: 60vh;
+        width: 40vh;
+    }
+}
+
+@media(max-width: 390px) {
+    .mainbg {
+        height: 50vh;
+        width: 30vh;
     }
 }
