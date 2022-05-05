@@ -310,7 +310,7 @@ header label {
 }
 
 .reserve-area {
-  margin: 3em;
+  margin: 1em;
 }
 
 .button {
@@ -403,6 +403,19 @@ h3 {
   .mainbg {
     height: 50vh;
     width: 30vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .reserve-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .hotel {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
