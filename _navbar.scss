@@ -24,6 +24,7 @@ header .logo {
     padding: 5px;
     letter-spacing: 1px;
     color: rgb(24, 179, 45);
+    text-decoration: none;
 }
 
 header .navbar ul li a {
@@ -32,6 +33,7 @@ header .navbar ul li a {
     color: #333;
     display: block;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 header .navbar ul li a:hover {
