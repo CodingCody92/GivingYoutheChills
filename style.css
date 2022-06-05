@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,600&family=Raleway:ital,wght@1,300&family=Roboto&display=swap");
 header {
   position: fixed;
   top: 0;
@@ -401,7 +402,7 @@ h3 {
 }
 
 .gift-reg p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .gift-reg a {
