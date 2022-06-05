@@ -196,7 +196,7 @@ header label {
 
 #venue h1 {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -285,6 +285,8 @@ header label {
 
 #reserve h1 {
   text-align: center;
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .hotel {
@@ -293,11 +295,6 @@ header label {
 
 #reserve {
   padding: 2.5em;
-}
-
-#reserve h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 40px;
 }
 
 .reserve-container {
@@ -336,6 +333,7 @@ header label {
 .reserve-area p,
 h3 {
   margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .reserve-area a {
@@ -402,12 +400,12 @@ h3 {
 }
 
 .gift-reg p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Gentium Plus', serif;
 }
 
 .gift-reg a {
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Gentium Plus', serif;
   background-color: #383838;
   color: #fff;
   padding: 20px;
