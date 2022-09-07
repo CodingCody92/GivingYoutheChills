@@ -1,6 +1,7 @@
 @import './navbar';
 @import './story';
 @import './venue';
+@import './thingstodo';
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,600&family=Raleway:ital,wght@1,300&family=Roboto&display=swap');
 * {
     padding: 0;
@@ -123,11 +124,15 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3em;
+    padding: 2em;
+}
+
+.rsvp .song {
+    font-size: 100px;
 }
 
 #rsvp-form {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
 }
 
 #rsvp-form h1,
@@ -144,6 +149,7 @@ h3 {
     align-items: center;
     flex-direction: column;
     padding: 3em;
+    background-color: rgb(235, 235, 235);
 }
 
 .gift-reg {
@@ -278,5 +284,18 @@ h3 {
 @media(max-width: 865px) {
     .rsvp {
         margin: 3em;
+    }
+}
+
+@media(max-width: 1380px) {
+    .things-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 445px) {
+    .things-container .busy img {
+        height: 280px;
+        width: 280px;
     }
 }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,600&family=Raleway:ital,wght@1,300&family=Roboto&display=swap");
 header {
   position: fixed;
@@ -217,6 +219,48 @@ header label {
   margin-top: 10px;
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+#things {
+  background-color: #ebebeb;
+  padding: 30px;
+}
+
+.things-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.things-container a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.things-container a:hover {
+  color: #057e05;
+}
+
+.busy {
+  margin: 2.3em;
+}
+
+.things-container .busy img {
+  height: 380px;
+  width: 380px;
+  border-radius: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -360,11 +404,15 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3em;
+  padding: 2em;
+}
+
+.rsvp .song {
+  font-size: 100px;
 }
 
 #rsvp-form {
-  background-color: #dbdbdb;
+  background-color: white;
 }
 
 #rsvp-form h1,
@@ -389,6 +437,7 @@ h3 {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 3em;
+  background-color: #ebebeb;
 }
 
 .gift-reg {
@@ -511,6 +560,20 @@ h3 {
 @media (max-width: 865px) {
   .rsvp {
     margin: 3em;
+  }
+}
+
+@media (max-width: 1380px) {
+  .things-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 445px) {
+  .things-container .busy img {
+    height: 280px;
+    width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
