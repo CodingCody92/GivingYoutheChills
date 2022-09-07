@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,600&family=Raleway:ital,wght@1,300&family=Roboto&display=swap");
 header {
   position: fixed;
@@ -210,7 +212,7 @@ header label {
 .venue-area p {
   text-align: center;
   margin: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .venue-img {
@@ -411,6 +413,11 @@ h3 {
   font-size: 100px;
 }
 
+.music {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
 #rsvp-form {
   background-color: white;
 }
@@ -476,7 +483,7 @@ h3 {
 
 .foot p {
   text-align: center;
-  color: #fff;
+  color: #2ad833;
   font-family: 'Raleway', sans-serif;
 }
 

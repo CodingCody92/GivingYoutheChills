@@ -2,6 +2,7 @@
 @import './story';
 @import './venue';
 @import './thingstodo';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@1,600&family=Raleway:ital,wght@1,300&family=Roboto&display=swap');
 * {
     padding: 0;
@@ -131,6 +132,11 @@ h3 {
     font-size: 100px;
 }
 
+.music {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
 #rsvp-form {
     background-color: rgb(255, 255, 255);
 }
@@ -191,7 +197,7 @@ h3 {
 
 .foot p {
     text-align: center;
-    color: #fff;
+    color: rgb(42, 216, 51);
     font-family: 'Raleway', sans-serif;
 }
 

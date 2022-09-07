@@ -25,6 +25,12 @@ for (let people of longList) {
     }
 }
 
+let newList = ('sam', 'mike', 'ye', 'arnold')
+
+if (newList.length > 2) {
+    console.log('long list')
+}
+
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function() {
     'use strict'
